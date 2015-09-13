@@ -1,6 +1,6 @@
 # Tab 选项卡
 
-<img src="tab.png" >
+<img src="https://github.com/nimojs/learn-js/blob/gh-pages/package/tab/tab.png" >
 
 ## 阶段 1
 
