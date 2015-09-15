@@ -13,9 +13,9 @@
 
 ```js
 tab({
-    element: '.newtab',
-    triggers: '.triggers',
-    contents '.contents'
+    element: '.tab-container',
+    triggers: '.tab-nav-item',
+    contents '.tab-contents'
 })
 ```
 
@@ -42,16 +42,16 @@ tab({
 
 ```js
 tab({
-    element: '.newtab',
-    triggers: '.triggers',
-    contents: '.contents',
+    element: '.tab-container',
+    triggers: '.tab-nav-item',
+    contents: '.tab-contents',
     // 显示第二个 content
     activeIndex: 1
 })
 ```
 ---
 
-`activeTriggerClass`
+`triggerActiveClass`
 
 triggers被选中时的class,默认 `ui-tab-active`
 

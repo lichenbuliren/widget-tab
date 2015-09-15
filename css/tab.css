@@ -33,6 +33,14 @@
     z-index: 2;
     background-color: #fff;
 }
+.tab-container .tab-nav .tab-nav-item.ui-tab-active{
+    border-color:#ccc;
+    position: relative;
+    border-bottom-color:#fff;
+    z-index: 2;
+    background-color: #fff;
+    color: red;
+}
 
 .tab-container .tab-contents{
     display: none;

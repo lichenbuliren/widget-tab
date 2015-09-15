@@ -7,13 +7,8 @@
 </head>
 <body>
     <div class="tab-container">
-        <ul class="tab-nav">
-            <li class="tab-nav-active"><a href="javascript:;">tab1</a></li>
-            <li><a href="javascript:;">tab2</a></li>
-            <li><a href="javascript:;">tab3</a></li>
-        </ul>
         <div class="tab-nav">
-            <span class="tab-nav-item tab-nav-item-active">tabl</span>
+            <span class="tab-nav-item">tabl</span>
             <span class="tab-nav-item">tab2</span>
             <span class="tab-nav-item">tab3</span>
         </div>
@@ -23,12 +18,12 @@
     </div>
     <script type="text/javascript" src="tab-level3.js"></script>
     <script>
-        tab({
+        var tab = new Tab({
             element: '.tab-container',
             trigger: '.tab-nav-item',
-            triggerActiveClass: '.tab-nav-item-active',
+            triggerActiveClass: 'ui-tab-active',
             contents: '.tab-contents',
-            activeIndex: 1
+            activeIndex: 0
         });
     </script>
 </body>
